@@ -1,0 +1,29 @@
+#container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+
+}
+#container > div{
+    background-color: springgreen;
+    font-size: 20px;
+    margin: 20px;
+    padding: 20px;
+    width: 200px;
+
+}
+
+#grid{
+    display: grid;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    grid-template-columns: 200px 200px auto;
+    background-color: springgreen;
+
+}
+.grid-items{
+    background-color: white;
+    padding: 20px;
+    margin: 20px;
+    font-size: 20px;
+}
